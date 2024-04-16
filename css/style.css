@@ -5,7 +5,8 @@ body {
 
 nav ul a,
 h1,
-footer {
+footer,
+footer a {
     color: #FFFFFF;
     font-family: "JetBrains Mono", monospace;
 }
@@ -13,6 +14,11 @@ footer {
 nav,
 footer {
     font-weight: 500;
+}
+
+span {
+    font-weight: bold;
+    color: #00BFA6;
 }
 
 nav {
@@ -31,7 +37,9 @@ nav ul {
     gap: 64px;
 }
 
-nav ul a {
+nav ul a,
+footer a,
+footer {
     font-size: 14px;
     line-height: 28px;
     text-decoration: none;
@@ -41,12 +49,32 @@ nav ul a:hover {
     font-weight: bold;
 }
 
+main {
+    margin: 0 auto 157px;
+    display: flex;
+    width: 1090px;
+    height: 280px;
+
+    justify-content: space-between;
+}
+
 h1 {
-    font-weight: bold;
+    margin: 6px auto 60px;
+    width: 605px;
+    height: 40px;
+
+    line-height: 40px;
+    font-size: 36px;
 }
 
 p {
     color: #C2C2C2;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+
+    width: 605px;
+    height: 168px;
+    line-height: 28px;
+    font-size: 16px;
+    margin: 0 auto 10px;
 }
