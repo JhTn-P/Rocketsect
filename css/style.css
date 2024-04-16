@@ -22,7 +22,7 @@ span {
 }
 
 nav {
-    margin: 71px auto 101px;
+    margin: 70px auto 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +50,7 @@ nav ul a:hover {
 }
 
 main {
-    margin: 0 auto 157px;
+    margin: 0 auto 160px;
     display: flex;
     width: 1090px;
     height: 280px;
@@ -77,4 +77,16 @@ p {
     line-height: 28px;
     font-size: 16px;
     margin: 0 auto 10px;
+}
+
+.linha {
+    border: 1px solid #00BFA6;
+    width: 565px;
+    margin: 0px auto 27px;
+}
+
+#cadeado {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
 }
