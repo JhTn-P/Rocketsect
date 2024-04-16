@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-nav,
+nav ul a,
 h1,
 footer {
     color: #FFFFFF;
@@ -13,6 +13,32 @@ footer {
 nav,
 footer {
     font-weight: 500;
+}
+
+nav {
+    margin: 71px auto 101px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 1080px;
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 64px;
+}
+
+nav ul a {
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    font-weight: bold;
 }
 
 h1 {
